@@ -1,7 +1,7 @@
 (function () {
     "use strict";
 
-    const THEME_STORAGE_KEY = "rs-theme";
+    const THEME_STORAGE_KEY = "villa-munhoz-theme";
     const DARK_THEME = "dark";
     const LIGHT_THEME = "light";
     const DESKTOP_MEDIA_QUERY = "(min-width: 901px)";
