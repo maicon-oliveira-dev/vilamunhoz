@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
 
@@ -8,7 +9,7 @@
         content="width=device-width, initial-scale=1.0"
     >
 
-        <meta
+    <meta
         name="description"
         content="Villa Munhoz: pizzas pré-assadas para mercados, padarias, mercearias e estabelecimentos comerciais."
     >
@@ -40,31 +41,31 @@
 </head>
 
 <body>
-    <!-- Barra promocional -->
+    <!-- Barra institucional -->
     <div class="promo-bar">
         <p class="promo-bar__text">
-            Enviamos para todo o Brasil
+            Pizzas pré-assadas para revenda
 
             <span aria-hidden="true">•</span>
 
-            Atendimento especializado
+            Mercados, padarias e comércios
         </p>
     </div>
 
     <!-- Cabeçalho -->
     <header class="header">
         <div class="header__container">
-            <!-- Logo -->
+
+            <!-- Marca -->
             <a
                 class="header__brand"
                 href="#inicio"
-                aria-label="R Suplementos - voltar ao início"
+                aria-label="Villa Munhoz - voltar ao início"
             >
-                <img
-                    class="header__logo"
-                    src="assets/img/logo/rs-logo-light.png"
-                    alt="R Suplementos & Naturais"
-                >
+                <div class="header__brand-text">
+                    <strong>Villa Munhoz</strong>
+                    <span>Pizzas pré-assadas</span>
+                </div>
             </a>
 
             <!-- Navegação desktop -->
@@ -74,47 +75,32 @@
             >
                 <ul class="navigation__list">
                     <li>
-                        <a
-                            class="navigation__link"
-                            href="#inicio"
-                        >
+                        <a class="navigation__link" href="#inicio">
                             Início
                         </a>
                     </li>
 
                     <li>
-                        <a
-                            class="navigation__link"
-                            href="#produtos"
-                        >
-                            Produtos
+                        <a class="navigation__link" href="#categorias">
+                            Para seu negócio
                         </a>
                     </li>
 
                     <li>
-                        <a
-                            class="navigation__link"
-                            href="#categorias"
-                        >
-                            Categorias
+                        <a class="navigation__link" href="#produtos">
+                            Pizzas
                         </a>
                     </li>
 
                     <li>
-                        <a
-                            class="navigation__link"
-                            href="#promocoes"
-                        >
-                            Promoções
-                        </a>
-                    </li>
-
-                    <li>
-                        <a
-                            class="navigation__link"
-                            href="#sobre"
-                        >
+                        <a class="navigation__link" href="#sobre">
                             Sobre
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="navigation__link" href="#contato">
+                            Contato
                         </a>
                     </li>
                 </ul>
@@ -135,7 +121,7 @@
                     class="button button--whatsapp"
                     href="#contato"
                 >
-                    Falar no WhatsApp
+                    Quero revender
                 </a>
 
                 <button
@@ -163,15 +149,11 @@
                 </li>
 
                 <li>
-                    <a href="#produtos">Produtos</a>
+                    <a href="#categorias">Para seu negócio</a>
                 </li>
 
                 <li>
-                    <a href="#categorias">Categorias</a>
-                </li>
-
-                <li>
-                    <a href="#promocoes">Promoções</a>
+                    <a href="#produtos">Pizzas</a>
                 </li>
 
                 <li>
@@ -179,7 +161,11 @@
                 </li>
 
                 <li>
-                    <a href="#contato">Falar no WhatsApp</a>
+                    <a href="#contato">Contato</a>
+                </li>
+
+                <li>
+                    <a href="#contato">Quero revender</a>
                 </li>
             </ul>
         </nav>
@@ -187,515 +173,201 @@
 
     <!-- Conteúdo principal -->
     <main>
-        <!-- Hero -->
+        <!-- Hero Villa Munhoz -->
         <section
             class="hero"
             id="inicio"
             aria-roledescription="carrossel"
-            aria-label="Produtos em destaque"
+            aria-label="Pizzas Villa Munhoz para revenda"
         >
             <div class="hero__carousel" aria-live="off">
-                <!-- Primeiro slide: Creatina gaseificada -->
                 <article
                     class="hero__slide hero__slide--active"
                     data-slide="0"
                     aria-label="1 de 4"
                     aria-hidden="false"
                 >
-                    <div
-                        class="hero__slide-background"
-                        aria-hidden="true"
-                    ></div>
-
+                    <div class="hero__slide-background" aria-hidden="true"></div>
                     <div class="hero__container">
-                        <!-- Conteúdo do slide -->
                         <div class="hero__content">
-                            <p class="hero__eyebrow">
-                                Exclusividade R Suplementos
-                            </p>
-
+                            <p class="hero__eyebrow">VILLA MUNHOZ PARA REVENDA</p>
                             <h1 class="hero__title">
-                                A primeira creatina
-                                <span>
-                                    gaseificada do Brasil
-                                </span>
+                                Pizzas pré-assadas
+                                <span>para o seu negócio.</span>
                             </h1>
-
                             <p class="hero__description">
-                                Creatina gaseificada em sabores marcantes
-                                para tornar sua suplementação mais leve e
-                                prazerosa.
+                                Uma linha de pizzas práticas para mercados, padarias, mercearias e estabelecimentos que desejam ampliar suas opções de venda.
                             </p>
-
                             <div class="hero__actions">
-                                <a
-                                    class="button button--primary"
-                                    href="#produtos"
-                                >
-                                    Conhecer os sabores
+                                <a class="button button--primary" href="#produtos">
+                                    Conhecer as pizzas
                                 </a>
-
-                                <a
-                                    class="button button--secondary"
-                                    href="#contato"
-                                >
-                                    Falar com a equipe
+                                <a class="button button--secondary" href="#contato">
+                                    Quero revender
                                 </a>
                             </div>
-
-                            <ul
-                                class="hero__benefits"
-                                aria-label="Diferenciais do produto"
-                            >
+                            <ul class="hero__benefits">
                                 <li>
-                                    <strong>100%</strong>
-                                    <span>Creatina pura</span>
+                                    <strong>Pré-assadas</strong>
+                                    <span>Praticidade no preparo</span>
                                 </li>
-
                                 <li>
-                                    <strong>3 sabores</strong>
-                                    <span>Refrescantes</span>
+                                    <strong>Salgadas</strong>
+                                    <span>Variedade de sabores</span>
                                 </li>
-
                                 <li>
-                                    <strong>300g</strong>
-                                    <span>Por embalagem</span>
+                                    <strong>Doces</strong>
+                                    <span>Mais opções no mix</span>
                                 </li>
                             </ul>
                         </div>
-
-                        <!-- Imagem do produto -->
                         <div class="hero__visual">
-                            <div
-                                class="hero__visual-decoration hero__visual-decoration--one"
-                                aria-hidden="true"
-                            ></div>
-
-                            <div
-                                class="hero__visual-decoration hero__visual-decoration--two"
-                                aria-hidden="true"
-                            ></div>
-
-                            <img
-                                class="hero__product-image"
-                                src="assets/img/products/creatina-gaseificada-trio.png"
-                                alt="Três sabores de creatina gaseificada"
-                            >
-
-                            <div class="hero__feature hero__feature--top">
-                                <span
-                                    class="hero__feature-icon"
-                                    aria-hidden="true"
-                                >
-                                    +
-                                </span>
-
-                                <p>
-                                    Sabores leves e refrescantes
-                                </p>
-                            </div>
-
-                            <div class="hero__feature hero__feature--bottom">
-                                <span
-                                    class="hero__feature-icon"
-                                    aria-hidden="true"
-                                >
-                                    ✓
-                                </span>
-
-                                <p>
-                                    Exclusividade na RS
-                                </p>
-                            </div>
+                            <span class="hero__visual-decoration hero__visual-decoration--one" aria-hidden="true"></span>
+                            <span class="hero__visual-decoration hero__visual-decoration--two" aria-hidden="true"></span>
+                            <div class="hero__product-placeholder">Villa Munhoz</div>
                         </div>
                     </div>
                 </article>
-                <!-- Segundo slide: SuperCoffee -->
+
                 <article
-                    class="hero__slide hero__slide--coffee"
+                    class="hero__slide"
                     data-slide="1"
                     aria-label="2 de 4"
                     aria-hidden="true"
+                    inert
                 >
-                    <div
-                        class="hero__slide-background"
-                        aria-hidden="true"
-                    ></div>
-
+                    <div class="hero__slide-background" aria-hidden="true"></div>
                     <div class="hero__container">
                         <div class="hero__content">
-                            <p class="hero__eyebrow">
-                                Energia para o dia
-                            </p>
-
+                            <p class="hero__eyebrow">VARIEDADE PARA VENDER</p>
                             <h2 class="hero__title">
-                                Mais energia para
-                                <span>
-                                    a sua rotina.
-                                </span>
+                                Mais opções
+                                <span>para o seu cliente.</span>
                             </h2>
-
                             <p class="hero__description">
-                                Uma combinação prática e saborosa para começar
-                                o dia, trabalhar ou preparar o seu treino.
+                                Sabores salgados e doces em uma linha pensada para ampliar as opções disponíveis no ponto de venda.
                             </p>
-
                             <div class="hero__actions">
-                                <a
-                                    class="button button--primary"
-                                    href="#produtos"
-                                    tabindex="-1"
-                                >
-                                    Conhecer o SuperCoffee
+                                <a class="button button--primary" href="#produtos" tabindex="-1">
+                                    Ver sabores
                                 </a>
-
-                                <a
-                                    class="button button--secondary"
-                                    href="#contato"
-                                    tabindex="-1"
-                                >
-                                    Falar com a equipe
+                                <a class="button button--secondary" href="#contato" tabindex="-1">
+                                    Falar com a Villa Munhoz
                                 </a>
                             </div>
-
-                            <ul
-                                class="hero__benefits"
-                                aria-label="Diferenciais do SuperCoffee"
-                            >
-                                <li>
-                                    <strong>Energia</strong>
-                                    <span>Para sua rotina</span>
-                                </li>
-
-                                <li>
-                                    <strong>220g</strong>
-                                    <span>Por embalagem</span>
-                                </li>
-
-                                <li>
-                                    <strong>Prático</strong>
-                                    <span>Fácil de preparar</span>
-                                </li>
-                            </ul>
                         </div>
-
                         <div class="hero__visual">
-                            <div
-                                class="hero__visual-decoration hero__visual-decoration--one"
-                                aria-hidden="true"
-                            ></div>
-
-                            <div
-                                class="hero__visual-decoration hero__visual-decoration--two"
-                                aria-hidden="true"
-                            ></div>
-
-                            <img
-                                class="hero__product-image hero__product-image--coffee"
-                                src="assets/img/products/supercoffee-group.png"
-                                alt="Duas embalagens de SuperCoffee acompanhadas de uma xícara"
-                            >
-
-                            <div class="hero__feature hero__feature--top">
-                                <span
-                                    class="hero__feature-icon"
-                                    aria-hidden="true"
-                                >
-                                    +
-                                </span>
-
-                                <p>Energia e praticidade</p>
-                            </div>
-
-                            <div class="hero__feature hero__feature--bottom">
-                                <span
-                                    class="hero__feature-icon"
-                                    aria-hidden="true"
-                                >
-                                    ✓
-                                </span>
-
-                                <p>Sabor para sua rotina</p>
-                            </div>
+                            <span class="hero__visual-decoration hero__visual-decoration--one" aria-hidden="true"></span>
+                            <span class="hero__visual-decoration hero__visual-decoration--two" aria-hidden="true"></span>
+                            <div class="hero__product-placeholder">Linha salgada</div>
                         </div>
                     </div>
                 </article>
-                <!-- Terceiro slide: Super Ômega 3 -->
+
                 <article
-                    class="hero__slide hero__slide--omega"
+                    class="hero__slide"
                     data-slide="2"
                     aria-label="3 de 4"
                     aria-hidden="true"
+                    inert
                 >
-                    <div
-                        class="hero__slide-background"
-                        aria-hidden="true"
-                    ></div>
-
+                    <div class="hero__slide-background" aria-hidden="true"></div>
                     <div class="hero__container">
                         <div class="hero__content">
-                            <p class="hero__eyebrow">
-                                Saúde e bem-estar
-                            </p>
-
+                            <p class="hero__eyebrow">PRATICIDADE</p>
                             <h2 class="hero__title">
-                                Cuidado que acompanha
-                                <span>
-                                    todos os dias.
-                                </span>
+                                Do freezer
+                                <span>para o forno.</span>
                             </h2>
-
                             <p class="hero__description">
-                                Produtos selecionados para complementar uma rotina
-                                equilibrada, consciente e cheia de boas escolhas.
+                                Pizzas pré-assadas que tornam o preparo simples e oferecem uma opção prática para o dia a dia.
                             </p>
-
                             <div class="hero__actions">
-                                <a
-                                    class="button button--primary"
-                                    href="#produtos"
-                                    tabindex="-1"
-                                >
-                                    Ver linha de bem-estar
+                                <a class="button button--primary" href="#produtos" tabindex="-1">
+                                    Conhecer a linha
                                 </a>
-
-                                <a
-                                    class="button button--secondary"
-                                    href="#contato"
-                                    tabindex="-1"
-                                >
-                                    Falar com a equipe
+                                <a class="button button--secondary" href="#contato" tabindex="-1">
+                                    Quero revender
                                 </a>
                             </div>
-
-                            <ul
-                                class="hero__benefits"
-                                aria-label="Diferenciais do Super Ômega 3"
-                            >
-                                <li>
-                                    <strong>Ômega 3</strong>
-                                    <span>Suplementação diária</span>
-                                </li>
-
-                                <li>
-                                    <strong>EPA + DHA</strong>
-                                    <span>Composição concentrada</span>
-                                </li>
-
-                                <li>
-                                    <strong>Essential</strong>
-                                    <span>Marca selecionada</span>
-                                </li>
-                            </ul>
                         </div>
-
                         <div class="hero__visual">
-                            <div
-                                class="hero__visual-decoration hero__visual-decoration--one"
-                                aria-hidden="true"
-                            ></div>
-
-                            <div
-                                class="hero__visual-decoration hero__visual-decoration--two"
-                                aria-hidden="true"
-                            ></div>
-
-                            <img
-                                class="hero__product-image hero__product-image--omega"
-                                src="assets/img/products/super-omega-3.png"
-                                alt="Embalagem de Super Ômega 3 TG da Essential Nutrition"
-                            >
-
-                            <div class="hero__feature hero__feature--top">
-                                <span
-                                    class="hero__feature-icon"
-                                    aria-hidden="true"
-                                >
-                                    +
-                                </span>
-
-                                <p>Escolha para o dia a dia</p>
-                            </div>
-
-                            <div class="hero__feature hero__feature--bottom">
-                                <span
-                                    class="hero__feature-icon"
-                                    aria-hidden="true"
-                                >
-                                    ✓
-                                </span>
-
-                                <p>Linha de bem-estar</p>
-                            </div>
+                            <span class="hero__visual-decoration hero__visual-decoration--one" aria-hidden="true"></span>
+                            <span class="hero__visual-decoration hero__visual-decoration--two" aria-hidden="true"></span>
+                            <div class="hero__product-placeholder">Pizzas pré-assadas</div>
                         </div>
                     </div>
                 </article>
 
-                <!-- Quarto slide: Adaptogen -->
                 <article
-                    class="hero__slide hero__slide--adaptogen"
+                    class="hero__slide"
                     data-slide="3"
                     aria-label="4 de 4"
                     aria-hidden="true"
+                    inert
                 >
-                    <div
-                        class="hero__slide-background"
-                        aria-hidden="true"
-                    ></div>
-
+                    <div class="hero__slide-background" aria-hidden="true"></div>
                     <div class="hero__container">
                         <div class="hero__content">
-                            <p class="hero__eyebrow">
-                                Seleção de grandes marcas
-                            </p>
-
+                            <p class="hero__eyebrow">LINHA DOCE</p>
                             <h2 class="hero__title">
-                                Escolhas para
-                                <span>
-                                    cada objetivo.
-                                </span>
+                                Pizza doce
+                                <span>também faz parte.</span>
                             </h2>
-
                             <p class="hero__description">
-                                Encontre suplementos selecionados e conte com a
-                                equipe R Suplementos para escolher a melhor opção
-                                para a sua rotina.
+                                Sabores doces completam a linha Villa Munhoz e ajudam a ampliar a variedade oferecida aos clientes.
                             </p>
-
                             <div class="hero__actions">
-                                <a
-                                    class="button button--primary"
-                                    href="#produtos"
-                                    tabindex="-1"
-                                >
-                                    Explorar produtos
+                                <a class="button button--primary" href="#produtos" tabindex="-1">
+                                    Ver pizzas doces
                                 </a>
-
-                                <a
-                                    class="button button--secondary"
-                                    href="#contato"
-                                    tabindex="-1"
-                                >
-                                    Falar com a equipe
+                                <a class="button button--secondary" href="#contato" tabindex="-1">
+                                    Consultar para revenda
                                 </a>
                             </div>
-
-                            <ul
-                                class="hero__benefits"
-                                aria-label="Diferenciais da seleção Adaptogen"
-                            >
-                                <li>
-                                    <strong>Creatina</strong>
-                                    <span>Mais opções</span>
-                                </li>
-
-                                <li>
-                                    <strong>Whey protein</strong>
-                                    <span>Para sua rotina</span>
-                                </li>
-
-                                <li>
-                                    <strong>Adaptogen</strong>
-                                    <span>Marca selecionada</span>
-                                </li>
-                            </ul>
                         </div>
-
                         <div class="hero__visual">
-                            <div
-                                class="hero__visual-decoration hero__visual-decoration--one"
-                                aria-hidden="true"
-                            ></div>
-
-                            <div
-                                class="hero__visual-decoration hero__visual-decoration--two"
-                                aria-hidden="true"
-                            ></div>
-
-                            <img
-                                class="hero__product-image hero__product-image--adaptogen"
-                                src="assets/img/products/adaptogen-group.png"
-                                alt="Seleção de whey protein e creatinas da Adaptogen"
-                            >
-
-                            <div class="hero__feature hero__feature--top">
-                                <span
-                                    class="hero__feature-icon"
-                                    aria-hidden="true"
-                                >
-                                    +
-                                </span>
-
-                                <p>Variedade de produtos</p>
-                            </div>
-
-                            <div class="hero__feature hero__feature--bottom">
-                                <span
-                                    class="hero__feature-icon"
-                                    aria-hidden="true"
-                                >
-                                    ✓
-                                </span>
-
-                                <p>Conte com a equipe RS</p>
-                            </div>
+                            <span class="hero__visual-decoration hero__visual-decoration--one" aria-hidden="true"></span>
+                            <span class="hero__visual-decoration hero__visual-decoration--two" aria-hidden="true"></span>
+                            <div class="hero__product-placeholder">Linha doce</div>
                         </div>
                     </div>
                 </article>
 
-                <!-- Controles do carrossel -->
                 <div class="hero__controls">
-                    <div
-                        class="hero__pagination"
-                        aria-label="Escolher produto em destaque"
-                    >
+                    <div class="hero__pagination" role="group" aria-label="Escolher destaque">
                         <button
                             class="hero__dot hero__dot--active"
                             type="button"
-                            aria-label="Mostrar creatina gaseificada"
+                            aria-label="Mostrar pizzas para revenda"
                             aria-current="true"
                             data-slide-button="0"
                         ></button>
-
                         <button
                             class="hero__dot"
                             type="button"
-                            aria-label="Mostrar SuperCoffee"
+                            aria-label="Mostrar variedade de sabores"
                             data-slide-button="1"
                         ></button>
-
                         <button
                             class="hero__dot"
                             type="button"
-                            aria-label="Mostrar Super Ômega 3"
+                            aria-label="Mostrar praticidade"
                             data-slide-button="2"
                         ></button>
-
                         <button
                             class="hero__dot"
                             type="button"
-                            aria-label="Mostrar produtos Adaptogen"
+                            aria-label="Mostrar linha de pizzas doces"
                             data-slide-button="3"
                         ></button>
                     </div>
-
                     <div class="hero__arrows">
-                        <button
-                            class="hero__arrow"
-                            type="button"
-                            aria-label="Produto anterior"
-                            data-carousel-previous
-                        >
-                            ←
+                        <button class="hero__arrow" type="button" aria-label="Destaque anterior" data-carousel-previous>
+                            <span aria-hidden="true">←</span>
                         </button>
-
-                        <button
-                            class="hero__arrow"
-                            type="button"
-                            aria-label="Próximo produto"
-                            data-carousel-next
-                        >
-                            →
+                        <button class="hero__arrow" type="button" aria-label="Próximo destaque" data-carousel-next>
+                            <span aria-hidden="true">→</span>
                         </button>
                     </div>
                 </div>
