@@ -556,782 +556,344 @@
             </div>
         </section>
 
-        <!-- Produtos selecionados -->
+        <!-- Catálogo Villa Munhoz -->
         <section
-            class="featured-products"
+            class="featured-products featured-products--pizzas"
             id="produtos"
             aria-labelledby="featured-products-title"
         >
             <div class="featured-products__container">
                 <header class="featured-products__header">
                     <div class="featured-products__heading">
-                        <p class="featured-products__eyebrow">SELEÇÃO RS</p>
-
-                        <h2
-                            class="featured-products__title"
-                            id="featured-products-title"
-                        >
-                            Produtos para acompanhar sua rotina.
+                        <p class="featured-products__eyebrow">CATÁLOGO VILLA MUNHOZ</p>
+                        <h2 class="featured-products__title" id="featured-products-title">
+                            Conheça nossos sabores.
                         </h2>
-
                         <p class="featured-products__description">
-                            Uma seleção especial de suplementos e produtos naturais
-                            escolhidos para diferentes objetivos.
+                            Uma linha de pizzas pré-assadas com opções salgadas e doces
+                            para diferentes pontos de venda.
                         </p>
-
-                        <p
-                            class="featured-products__status"
-                            aria-live="polite"
-                            aria-atomic="true"
-                        ></p>
+                        <div class="featured-products__filters" role="group" aria-label="Filtrar pizzas por categoria">
+                            <a class="featured-products__all-link category-filter--active" href="#featured-products-grid" data-category-filter="all" aria-current="true">Todas</a>
+                            <a class="featured-products__all-link" href="#featured-products-grid" data-category-filter="salgadas">Salgadas</a>
+                            <a class="featured-products__all-link" href="#featured-products-grid" data-category-filter="doces">Doces</a>
+                        </div>
+                        <p class="featured-products__status" aria-live="polite" aria-atomic="true">
+                            Todos os 10 produtos estão sendo exibidos.
+                        </p>
                     </div>
-
-                    <a
-                        class="featured-products__all-link"
-                        href="#featured-products-grid"
-                        data-category-filter="all"
-                    >
-                        Ver todos os produtos
-                        <span aria-hidden="true">→</span>
-                    </a>
                 </header>
 
-                <div
-                    class="featured-products__grid"
-                    id="featured-products-grid"
-                >
-                    <article
-                        class="product-card product-card--creatine"
-                        data-category="performance novidades"
-                    >
-                        <div class="product-card__visual">
-                            <span
-                                class="product-card__decoration product-card__decoration--one"
-                                aria-hidden="true"
-                            ></span>
-                            <span
-                                class="product-card__decoration product-card__decoration--two"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span class="product-card__badge">
-                                Exclusividade RS
-                            </span>
-
-                            <img
-                                class="product-card__image product-card__image--creatine"
-                                src="assets/img/products/creatina-gaseificada-trio.png"
-                                alt="Três embalagens de creatina gaseificada em sabores diferentes"
-                            >
+                <div class="featured-products__grid" id="featured-products-grid">
+                    <article class="product-card product-card--pizza product-card--salgadas" data-category="salgadas">
+                        <div class="product-card__visual" aria-hidden="true">
+                            <span class="product-card__decoration product-card__decoration--one"></span>
+                            <span class="product-card__decoration product-card__decoration--two"></span>
+                            <div class="product-card__pizza-placeholder">
+                                <span>Villa Munhoz</span>
+                                <strong>Pizza salgada</strong>
+                                <small>Foto em breve</small>
+                            </div>
                         </div>
-
                         <div class="product-card__content">
-                            <p class="product-card__brand">R Suplementos</p>
-
-                            <h3 class="product-card__title">
-                                Creatina gaseificada
-                            </h3>
-
-                            <p class="product-card__category">Performance</p>
-
+                            <p class="product-card__brand">Villa Munhoz</p>
+                            <h3 class="product-card__title">Frango com requeijão</h3>
+                            <p class="product-card__category">Pizza salgada</p>
                             <p class="product-card__description">
-                                Creatina pura em sabores leves e refrescantes.
+                                Massa, molho, muçarela, frango desfiado, azeitonas verdes fatiadas, requeijão e orégano.
                             </p>
-
                             <footer class="product-card__footer">
-                                <p class="product-card__availability">
-                                    <span aria-hidden="true"></span>
-                                    Consulte disponibilidade
-                                </p>
-
+                                <p class="product-card__availability">Consulte condições para revenda</p>
                                 <a
                                     class="button button--primary product-card__button"
                                     href="#contato"
-                                    aria-label="Consultar produto: Creatina gaseificada"
-                                    data-product-name="Creatina gaseificada"
+                                    data-product-name="Frango com requeijão"
+                                    aria-label="Tenho interesse na pizza Frango com requeijão"
                                 >
-                                    Consultar produto
+                                    Tenho interesse neste sabor
                                 </a>
                             </footer>
                         </div>
                     </article>
 
-                    <article
-                        class="product-card product-card--coffee"
-                        data-category="energia"
-                    >
-                        <div class="product-card__visual">
-                            <span
-                                class="product-card__decoration product-card__decoration--one"
-                                aria-hidden="true"
-                            ></span>
-                            <span
-                                class="product-card__decoration product-card__decoration--two"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span class="product-card__badge">
-                                Energia para a rotina
-                            </span>
-
-                            <img
-                                class="product-card__image product-card__image--coffee"
-                                src="assets/img/products/supercoffee-group.png"
-                                alt="Duas embalagens de SuperCoffee com uma xícara"
-                            >
+                    <article class="product-card product-card--pizza product-card--salgadas" data-category="salgadas">
+                        <div class="product-card__visual" aria-hidden="true">
+                            <span class="product-card__decoration product-card__decoration--one"></span>
+                            <span class="product-card__decoration product-card__decoration--two"></span>
+                            <div class="product-card__pizza-placeholder">
+                                <span>Villa Munhoz</span>
+                                <strong>Pizza salgada</strong>
+                                <small>Foto em breve</small>
+                            </div>
                         </div>
-
                         <div class="product-card__content">
-                            <p class="product-card__brand">Caffeine Army</p>
-
-                            <h3 class="product-card__title">SuperCoffee</h3>
-
-                            <p class="product-card__category">Energia</p>
-
+                            <p class="product-card__brand">Villa Munhoz</p>
+                            <h3 class="product-card__title">Portuguesa</h3>
+                            <p class="product-card__category">Pizza salgada</p>
                             <p class="product-card__description">
-                                Energia, foco e praticidade para acompanhar o seu dia.
+                                Massa, molho, muçarela, ervilha, milho, presunto e orégano.
                             </p>
-
                             <footer class="product-card__footer">
-                                <p class="product-card__availability">
-                                    <span aria-hidden="true"></span>
-                                    Consulte disponibilidade
-                                </p>
-
+                                <p class="product-card__availability">Consulte condições para revenda</p>
                                 <a
                                     class="button button--primary product-card__button"
                                     href="#contato"
-                                    aria-label="Consultar produto: SuperCoffee"
-                                    data-product-name="SuperCoffee"
+                                    data-product-name="Portuguesa"
+                                    aria-label="Tenho interesse na pizza Portuguesa"
                                 >
-                                    Consultar produto
+                                    Tenho interesse neste sabor
                                 </a>
                             </footer>
                         </div>
                     </article>
 
-                    <article
-                        class="product-card product-card--omega"
-                        data-category="saude-bem-estar"
-                    >
-                        <div class="product-card__visual">
-                            <span
-                                class="product-card__decoration product-card__decoration--one"
-                                aria-hidden="true"
-                            ></span>
-                            <span
-                                class="product-card__decoration product-card__decoration--two"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span class="product-card__badge">Seleção RS</span>
-
-                            <img
-                                class="product-card__image product-card__image--omega"
-                                src="assets/img/products/super-omega-3.png"
-                                alt="Frasco de Super Ômega 3 TG da Essential Nutrition"
-                            >
+                    <article class="product-card product-card--pizza product-card--salgadas" data-category="salgadas">
+                        <div class="product-card__visual" aria-hidden="true">
+                            <span class="product-card__decoration product-card__decoration--one"></span>
+                            <span class="product-card__decoration product-card__decoration--two"></span>
+                            <div class="product-card__pizza-placeholder">
+                                <span>Villa Munhoz</span>
+                                <strong>Pizza salgada</strong>
+                                <small>Foto em breve</small>
+                            </div>
                         </div>
-
                         <div class="product-card__content">
-                            <p class="product-card__brand">Essential Nutrition</p>
-
-                            <h3 class="product-card__title">Super Ômega 3 TG</h3>
-
-                            <p class="product-card__category">
-                                Saúde e bem-estar
-                            </p>
-
+                            <p class="product-card__brand">Villa Munhoz</p>
+                            <h3 class="product-card__title">Mista</h3>
+                            <p class="product-card__category">Pizza salgada</p>
                             <p class="product-card__description">
-                                Suplementação concentrada para complementar os
-                                cuidados diários.
+                                Massa, molho, muçarela, calabresa, milho e orégano.
                             </p>
-
                             <footer class="product-card__footer">
-                                <p class="product-card__availability">
-                                    <span aria-hidden="true"></span>
-                                    Consulte disponibilidade
-                                </p>
-
+                                <p class="product-card__availability">Consulte condições para revenda</p>
                                 <a
                                     class="button button--primary product-card__button"
                                     href="#contato"
-                                    aria-label="Consultar produto: Super Ômega 3 TG"
-                                    data-product-name="Super Ômega 3 TG"
+                                    data-product-name="Mista"
+                                    aria-label="Tenho interesse na pizza Mista"
                                 >
-                                    Consultar produto
-                                </a>
-                            </footer>
-                        </div>
-
-                    </article>
-
-                    <article
-                        class="product-card product-card--adaptogen"
-                        data-category="performance"
-                    >
-                        <div class="product-card__visual">
-                            <span
-                                class="product-card__decoration product-card__decoration--one"
-                                aria-hidden="true"
-                            ></span>
-                            <span
-                                class="product-card__decoration product-card__decoration--two"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span class="product-card__badge">Destaque</span>
-
-                            <img
-                                class="product-card__image product-card__image--adaptogen"
-                                src="assets/img/products/adaptogen-group.png"
-                                alt="Seleção de whey protein e creatinas da Adaptogen"
-                            >
-                        </div>
-
-                        <div class="product-card__content">
-                            <p class="product-card__brand">Adaptogen</p>
-
-                            <h3 class="product-card__title">Linha Adaptogen</h3>
-
-                            <p class="product-card__category">Performance</p>
-
-                            <p class="product-card__description">
-                                Produtos selecionados para força, desempenho e
-                                recuperação.
-                            </p>
-
-                            <footer class="product-card__footer">
-                                <p class="product-card__availability">
-                                    <span aria-hidden="true"></span>
-                                    Consulte disponibilidade
-                                </p>
-
-                                <a
-                                    class="button button--primary product-card__button"
-                                    href="#contato"
-                                    aria-label="Consultar produto: Linha Adaptogen"
-                                    data-product-name="Linha Adaptogen"
-                                >
-                                    Consultar produto
+                                    Tenho interesse neste sabor
                                 </a>
                             </footer>
                         </div>
                     </article>
 
-
-                    <article
-                        class="product-card product-card--chocoball"
-                        data-category="doces-snacks novidades"
-                    >
-                        <div class="product-card__visual">
-                            <span
-                                class="product-card__decoration product-card__decoration--one"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span
-                                class="product-card__decoration product-card__decoration--two"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span class="product-card__badge">
-                                Novidade
-                            </span>
-
-                            <img
-                                class="product-card__image product-card__image--chocoball"
-                                src="assets/img/products/chocoball.png"
-                                alt="Porção de pequenas esferas crocantes cobertas com chocolate"
-                                loading="lazy"
-                                decoding="async"
-                            >
+                    <article class="product-card product-card--pizza product-card--salgadas" data-category="salgadas">
+                        <div class="product-card__visual" aria-hidden="true">
+                            <span class="product-card__decoration product-card__decoration--one"></span>
+                            <span class="product-card__decoration product-card__decoration--two"></span>
+                            <div class="product-card__pizza-placeholder">
+                                <span>Villa Munhoz</span>
+                                <strong>Pizza salgada</strong>
+                                <small>Foto em breve</small>
+                            </div>
                         </div>
-
                         <div class="product-card__content">
-                            <p class="product-card__brand">
-                                R Suplementos
-                            </p>
-
-                            <h3 class="product-card__title">
-                                Chocoball
-                            </h3>
-
-                            <p class="product-card__category">
-                                Doces e snacks
-                            </p>
-
+                            <p class="product-card__brand">Villa Munhoz</p>
+                            <h3 class="product-card__title">Calabresa</h3>
+                            <p class="product-card__category">Pizza salgada</p>
                             <p class="product-card__description">
-                                Esferas crocantes cobertas com chocolate para deixar
-                                seus momentos ainda mais saborosos.
+                                Massa, molho, muçarela, calabresa, cebola roxa e orégano.
                             </p>
-
                             <footer class="product-card__footer">
-                                <p class="product-card__availability">
-                                    <span aria-hidden="true"></span>
-                                    Consulte disponibilidade
-                                </p>
-
+                                <p class="product-card__availability">Consulte condições para revenda</p>
                                 <a
                                     class="button button--primary product-card__button"
                                     href="#contato"
-                                    aria-label="Consultar produto: Chocoball"
-                                    data-product-name="Chocoball"
+                                    data-product-name="Calabresa"
+                                    aria-label="Tenho interesse na pizza Calabresa"
                                 >
-                                    Consultar produto
+                                    Tenho interesse neste sabor
                                 </a>
                             </footer>
                         </div>
                     </article>
 
-                    <article
-                        class="product-card product-card--tasty-whey"
-                        data-category="performance proteinas"
-                    >
-                        <div class="product-card__visual">
-                            <span
-                                class="product-card__decoration product-card__decoration--one"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span
-                                class="product-card__decoration product-card__decoration--two"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span class="product-card__badge">
-                                Proteína
-                            </span>
-
-                            <img
-                                class="product-card__image product-card__image--tasty-whey"
-                                src="assets/img/products/tasty-whey-group.png"
-                                alt="Três embalagens de Tasty Whey da Adaptogen"
-                                loading="lazy"
-                                decoding="async"
-                            >
+                    <article class="product-card product-card--pizza product-card--salgadas" data-category="salgadas">
+                        <div class="product-card__visual" aria-hidden="true">
+                            <span class="product-card__decoration product-card__decoration--one"></span>
+                            <span class="product-card__decoration product-card__decoration--two"></span>
+                            <div class="product-card__pizza-placeholder">
+                                <span>Villa Munhoz</span>
+                                <strong>Pizza salgada</strong>
+                                <small>Foto em breve</small>
+                            </div>
                         </div>
-
                         <div class="product-card__content">
-                            <p class="product-card__brand">
-                                Adaptogen
-                            </p>
-
-                            <h3 class="product-card__title">
-                                Tasty Whey
-                            </h3>
-
-                            <p class="product-card__category">
-                                Proteínas
-                            </p>
-
+                            <p class="product-card__brand">Villa Munhoz</p>
+                            <h3 class="product-card__title">Bacon</h3>
+                            <p class="product-card__category">Pizza salgada</p>
                             <p class="product-card__description">
-                                Proteína saborosa e prática para complementar sua rotina
-                                de treinos e recuperação.
+                                Massa, molho, muçarela, bacon frito e orégano.
                             </p>
-
                             <footer class="product-card__footer">
-                                <p class="product-card__availability">
-                                    <span aria-hidden="true"></span>
-                                    Consulte disponibilidade
-                                </p>
-
+                                <p class="product-card__availability">Consulte condições para revenda</p>
                                 <a
                                     class="button button--primary product-card__button"
                                     href="#contato"
-                                    aria-label="Consultar produto: Tasty Whey"
-                                    data-product-name="Tasty Whey"
+                                    data-product-name="Bacon"
+                                    aria-label="Tenho interesse na pizza Bacon"
                                 >
-                                    Consultar produto
+                                    Tenho interesse neste sabor
                                 </a>
                             </footer>
                         </div>
                     </article>
 
-                    <article
-                        class="product-card product-card--strawberry-dragée"
-                        data-category="doces-snacks novidades"
-                    >
-                        <div class="product-card__visual">
-                            <span
-                                class="product-card__decoration product-card__decoration--one"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span
-                                class="product-card__decoration product-card__decoration--two"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span class="product-card__badge">
-                                Zero adição de açúcar
-                            </span>
-
-                            <img
-                                class="product-card__image product-card__image--strawberry-dragée"
-                                src="assets/img/products/dragea-morango-chocolate.png"
-                                alt="Drágeas de morango cobertas com chocolate preto"
-                                loading="lazy"
-                                decoding="async"
-                            >
+                    <article class="product-card product-card--pizza product-card--salgadas" data-category="salgadas">
+                        <div class="product-card__visual" aria-hidden="true">
+                            <span class="product-card__decoration product-card__decoration--one"></span>
+                            <span class="product-card__decoration product-card__decoration--two"></span>
+                            <div class="product-card__pizza-placeholder">
+                                <span>Villa Munhoz</span>
+                                <strong>Pizza salgada</strong>
+                                <small>Foto em breve</small>
+                            </div>
                         </div>
-
                         <div class="product-card__content">
-                            <p class="product-card__brand">
-                                Seleção RS
-                            </p>
-
-                            <h3 class="product-card__title">
-                                Drágea de morango
-                            </h3>
-
-                            <p class="product-card__category">
-                                Doces e snacks
-                            </p>
-
+                            <p class="product-card__brand">Villa Munhoz</p>
+                            <h3 class="product-card__title">Moda da casa</h3>
+                            <p class="product-card__category">Pizza salgada</p>
                             <p class="product-card__description">
-                                Morango combinado com chocolate preto em uma opção
-                                saborosa e sem adição de açúcar.
+                                Massa, molho, muçarela, palmito, milho, presunto, tomate-cereja e orégano.
                             </p>
-
                             <footer class="product-card__footer">
-                                <p class="product-card__availability">
-                                    <span aria-hidden="true"></span>
-                                    Consulte disponibilidade
-                                </p>
-
+                                <p class="product-card__availability">Consulte condições para revenda</p>
                                 <a
                                     class="button button--primary product-card__button"
                                     href="#contato"
-                                    aria-label="Consultar produto: Drágea de morango com chocolate"
-                                    data-product-name="Drágea de morango com chocolate"
+                                    data-product-name="Moda da casa"
+                                    aria-label="Tenho interesse na pizza Moda da casa"
                                 >
-                                    Consultar produto
+                                    Tenho interesse neste sabor
                                 </a>
                             </footer>
                         </div>
                     </article>
 
-                    <article
-                        class="product-card product-card--freeze-dried-strawberry"
-                        data-category="saude-bem-estar frutas-snacks"
-                    >
-                        <div class="product-card__visual">
-                            <span
-                                class="product-card__decoration product-card__decoration--one"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span
-                                class="product-card__decoration product-card__decoration--two"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span class="product-card__badge">
-                                Crocante
-                            </span>
-
-                            <img
-                                class="product-card__image product-card__image--freeze-dried-strawberry"
-                                src="assets/img/products/morango-liofilizado.png"
-                                alt="Porção de morangos liofilizados"
-                                loading="lazy"
-                                decoding="async"
-                            >
+                    <article class="product-card product-card--pizza product-card--salgadas" data-category="salgadas">
+                        <div class="product-card__visual" aria-hidden="true">
+                            <span class="product-card__decoration product-card__decoration--one"></span>
+                            <span class="product-card__decoration product-card__decoration--two"></span>
+                            <div class="product-card__pizza-placeholder">
+                                <span>Villa Munhoz</span>
+                                <strong>Pizza salgada</strong>
+                                <small>Foto em breve</small>
+                            </div>
                         </div>
-
                         <div class="product-card__content">
-                            <p class="product-card__brand">
-                                Seleção RS
-                            </p>
-
-                            <h3 class="product-card__title">
-                                Morango liofilizado
-                            </h3>
-
-                            <p class="product-card__category">
-                                Frutas e snacks
-                            </p>
-
+                            <p class="product-card__brand">Villa Munhoz</p>
+                            <h3 class="product-card__title">Quatro queijos</h3>
+                            <p class="product-card__category">Pizza salgada</p>
                             <p class="product-card__description">
-                                Morangos crocantes e saborosos para um lanche prático
-                                em diferentes momentos do dia.
+                                Massa, molho, muçarela, provolone, requeijão, parmesão e orégano.
                             </p>
-
                             <footer class="product-card__footer">
-                                <p class="product-card__availability">
-                                    <span aria-hidden="true"></span>
-                                    Consulte disponibilidade
-                                </p>
-
+                                <p class="product-card__availability">Consulte condições para revenda</p>
                                 <a
                                     class="button button--primary product-card__button"
                                     href="#contato"
-                                    aria-label="Consultar produto: Morango liofilizado"
-                                    data-product-name="Morango liofilizado"
+                                    data-product-name="Quatro queijos"
+                                    aria-label="Tenho interesse na pizza Quatro queijos"
                                 >
-                                    Consultar produto
+                                    Tenho interesse neste sabor
                                 </a>
                             </footer>
                         </div>
                     </article>
 
-                    <article
-                        class="product-card product-card--white-chocolate-cashew"
-                        data-category="saude-bem-estar doces-snacks"
-                    >
-                        <div class="product-card__visual">
-                            <span
-                                class="product-card__decoration product-card__decoration--one"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span
-                                class="product-card__decoration product-card__decoration--two"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span class="product-card__badge">
-                                Zero adição de açúcar
-                            </span>
-
-                            <img
-                                class="product-card__image product-card__image--white-chocolate-cashew"
-                                src="assets/img/products/castanha-caju-chocolate-branco.png"
-                                alt="Castanhas de caju cobertas com chocolate branco"
-                                loading="lazy"
-                                decoding="async"
-                            >
+                    <article class="product-card product-card--pizza product-card--doces" data-category="doces">
+                        <div class="product-card__visual" aria-hidden="true">
+                            <span class="product-card__decoration product-card__decoration--one"></span>
+                            <span class="product-card__decoration product-card__decoration--two"></span>
+                            <div class="product-card__pizza-placeholder">
+                                <span>Villa Munhoz</span>
+                                <strong>Pizza doce</strong>
+                                <small>Foto em breve</small>
+                            </div>
                         </div>
-
                         <div class="product-card__content">
-                            <p class="product-card__brand">
-                                Seleção RS
-                            </p>
-
-                            <h3 class="product-card__title">
-                                Castanha com chocolate branco
-                            </h3>
-
-                            <p class="product-card__category">
-                                Doces e snacks
-                            </p>
-
+                            <p class="product-card__brand">Villa Munhoz</p>
+                            <h3 class="product-card__title">Chocolate preto e branco</h3>
+                            <p class="product-card__category">Pizza doce</p>
                             <p class="product-card__description">
-                                Castanha de caju selecionada com uma cobertura cremosa
-                                de chocolate branco.
+                                Massa, chocolate preto e branco e balinhas de chocolate.
                             </p>
-
                             <footer class="product-card__footer">
-                                <p class="product-card__availability">
-                                    <span aria-hidden="true"></span>
-                                    Consulte disponibilidade
-                                </p>
-
+                                <p class="product-card__availability">Consulte condições para revenda</p>
                                 <a
                                     class="button button--primary product-card__button"
                                     href="#contato"
-                                    aria-label="Consultar produto: Castanha de caju com chocolate branco"
-                                    data-product-name="Castanha de caju com chocolate branco"
+                                    data-product-name="Chocolate preto e branco"
+                                    aria-label="Tenho interesse na pizza Chocolate preto e branco"
                                 >
-                                    Consultar produto
+                                    Tenho interesse neste sabor
                                 </a>
                             </footer>
                         </div>
                     </article>
 
-                    <article
-                        class="product-card product-card--chocolate-pacoca"
-                        data-category="doces-snacks novidades"
-                    >
-                        <div class="product-card__visual">
-                            <span
-                                class="product-card__decoration product-card__decoration--one"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span
-                                class="product-card__decoration product-card__decoration--two"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span class="product-card__badge">
-                                Novidade
-                            </span>
-
-                            <img
-                                class="product-card__image product-card__image--chocolate-pacoca"
-                                src="assets/img/products/pacoca-com-chocolate.png"
-                                alt="Porções de paçoca cobertas com chocolate"
-                                loading="lazy"
-                                decoding="async"
-                            >
+                    <article class="product-card product-card--pizza product-card--doces" data-category="doces">
+                        <div class="product-card__visual" aria-hidden="true">
+                            <span class="product-card__decoration product-card__decoration--one"></span>
+                            <span class="product-card__decoration product-card__decoration--two"></span>
+                            <div class="product-card__pizza-placeholder">
+                                <span>Villa Munhoz</span>
+                                <strong>Pizza doce</strong>
+                                <small>Foto em breve</small>
+                            </div>
                         </div>
-
                         <div class="product-card__content">
-                            <p class="product-card__brand">
-                                Seleção RS
-                            </p>
-
-                            <h3 class="product-card__title">
-                                Paçoca com chocolate
-                            </h3>
-
-                            <p class="product-card__category">
-                                Doces e snacks
-                            </p>
-
+                            <p class="product-card__brand">Villa Munhoz</p>
+                            <h3 class="product-card__title">Chocolate preto</h3>
+                            <p class="product-card__category">Pizza doce</p>
                             <p class="product-card__description">
-                                A crocância da paçoca combinada com uma generosa
-                                cobertura de chocolate.
+                                Massa, chocolate preto e balinhas de chocolate.
                             </p>
-
                             <footer class="product-card__footer">
-                                <p class="product-card__availability">
-                                    <span aria-hidden="true"></span>
-                                    Consulte disponibilidade
-                                </p>
-
+                                <p class="product-card__availability">Consulte condições para revenda</p>
                                 <a
                                     class="button button--primary product-card__button"
                                     href="#contato"
-                                    aria-label="Consultar produto: Paçoca com chocolate"
-                                    data-product-name="Paçoca com chocolate"
+                                    data-product-name="Chocolate preto"
+                                    aria-label="Tenho interesse na pizza Chocolate preto"
                                 >
-                                    Consultar produto
+                                    Tenho interesse neste sabor
                                 </a>
                             </footer>
                         </div>
                     </article>
 
-                    <article
-                        class="product-card product-card--tropical-fruit-mix"
-                        data-category="saude-bem-estar frutas-snacks"
-                    >
-                        <div class="product-card__visual">
-                            <span
-                                class="product-card__decoration product-card__decoration--one"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span
-                                class="product-card__decoration product-card__decoration--two"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span class="product-card__badge">
-                                Mix tropical
-                            </span>
-
-                            <img
-                                class="product-card__image product-card__image--tropical-fruit-mix"
-                                src="assets/img/products/mix-frutas-tropicais.png"
-                                alt="Mix colorido de frutas tropicais liofilizadas"
-                                loading="lazy"
-                                decoding="async"
-                            >
+                    <article class="product-card product-card--pizza product-card--doces" data-category="doces">
+                        <div class="product-card__visual" aria-hidden="true">
+                            <span class="product-card__decoration product-card__decoration--one"></span>
+                            <span class="product-card__decoration product-card__decoration--two"></span>
+                            <div class="product-card__pizza-placeholder">
+                                <span>Villa Munhoz</span>
+                                <strong>Pizza doce</strong>
+                                <small>Foto em breve</small>
+                            </div>
                         </div>
-
                         <div class="product-card__content">
-                            <p class="product-card__brand">
-                                Seleção RS
-                            </p>
-
-                            <h3 class="product-card__title">
-                                Mix de frutas tropicais
-                            </h3>
-
-                            <p class="product-card__category">
-                                Frutas e snacks
-                            </p>
-
+                            <p class="product-card__brand">Villa Munhoz</p>
+                            <h3 class="product-card__title">Chocolate branco</h3>
+                            <p class="product-card__category">Pizza doce</p>
                             <p class="product-card__description">
-                                Uma combinação crocante e colorida de frutas tropicais
-                                para levar na bolsa ou consumir no pós-treino.
+                                Massa, chocolate branco e balinhas de chocolate.
                             </p>
-
                             <footer class="product-card__footer">
-                                <p class="product-card__availability">
-                                    <span aria-hidden="true"></span>
-                                    Consulte disponibilidade
-                                </p>
-
+                                <p class="product-card__availability">Consulte condições para revenda</p>
                                 <a
                                     class="button button--primary product-card__button"
                                     href="#contato"
-                                    aria-label="Consultar produto: Mix de frutas tropicais"
-                                    data-product-name="Mix de frutas tropicais"
+                                    data-product-name="Chocolate branco"
+                                    aria-label="Tenho interesse na pizza Chocolate branco"
                                 >
-                                    Consultar produto
+                                    Tenho interesse neste sabor
                                 </a>
                             </footer>
                         </div>
                     </article>
-
-                    <article
-                        class="product-card product-card--white-chocolate-fruit-bar"
-                        data-category="doces-snacks"
-                    >
-                        <div class="product-card__visual">
-                            <span
-                                class="product-card__decoration product-card__decoration--one"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span
-                                class="product-card__decoration product-card__decoration--two"
-                                aria-hidden="true"
-                            ></span>
-
-                            <span class="product-card__badge">
-                                Zero adição de açúcar
-                            </span>
-
-                            <img
-                                class="product-card__image product-card__image--white-chocolate-fruit-bar"
-                                src="assets/img/products/barra-chocolate-branco-frutas.png"
-                                alt="Barras de chocolate branco com pedaços de frutas liofilizadas"
-                                loading="lazy"
-                                decoding="async"
-                            >
-                        </div>
-
-                        <div class="product-card__content">
-                            <p class="product-card__brand">
-                                Seleção RS
-                            </p>
-
-                            <h3 class="product-card__title">
-                                Barra branca com frutas
-                            </h3>
-
-                            <p class="product-card__category">
-                                Doces e snacks
-                            </p>
-
-                            <p class="product-card__description">
-                                Chocolate branco com pedaços de frutas liofilizadas,
-                                combinando cremosidade, sabor e crocância.
-                            </p>
-
-                            <footer class="product-card__footer">
-                                <p class="product-card__availability">
-                                    <span aria-hidden="true"></span>
-                                    Consulte disponibilidade
-                                </p>
-
-                                <a
-                                    class="button button--primary product-card__button"
-                                    href="#contato"
-                                    aria-label="Consultar produto: Barra de chocolate branco com frutas"
-                                    data-product-name="Barra de chocolate branco com frutas"
-                                >
-                                    Consultar produto
-                                </a>
-                            </footer>
-                        </div>
-                    </article>
-
 
                 </div>
             </div>
@@ -1569,7 +1131,6 @@
                             <a
                                 class="footer__link"
                                 href="#produtos"
-                                data-category-filter="performance"
                             >
                                 Performance
                             </a>
@@ -1578,7 +1139,6 @@
                             <a
                                 class="footer__link"
                                 href="#produtos"
-                                data-category-filter="energia"
                             >
                                 Energia
                             </a>
@@ -1587,7 +1147,6 @@
                             <a
                                 class="footer__link"
                                 href="#produtos"
-                                data-category-filter="saude-bem-estar"
                             >
                                 Saúde e bem-estar
                             </a>
@@ -1596,7 +1155,6 @@
                             <a
                                 class="footer__link"
                                 href="#produtos"
-                                data-category-filter="novidades"
                             >
                                 Novidades
                             </a>

@@ -2991,6 +2991,155 @@ html[data-theme="dark"] .product-card--white-chocolate-fruit-bar {
     }
 }
 
+/* Catálogo de pizzas: identidade local, sem alterar os outros componentes. */
+.featured-products--pizzas {
+    --color-primary: #86394b;
+    --color-primary-dark: #6d2638;
+    --color-primary-light: #f3e4df;
+    --color-accent-strong: #762b3e;
+    --color-accent-strong-hover: #552032;
+    --color-focus-ring: #86394b;
+}
+
+html[data-theme="dark"] .featured-products--pizzas {
+    --color-primary: #e5a9b5;
+    --color-primary-dark: #f1c5ce;
+    --color-primary-light: #492c36;
+    --color-accent-strong: #81374a;
+    --color-accent-strong-hover: #95475b;
+    --color-focus-ring: #f1c5ce;
+}
+
+.featured-products__filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.featured-products--pizzas .featured-products__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.product-card--pizza,
+html[data-theme="dark"] .product-card--pizza {
+    --product-visual-start: #f7ead8;
+    --product-visual-end: #ebd2b3;
+    --product-detail: rgba(118, 43, 62, 0.12);
+    --product-glow: rgba(255, 250, 237, 0.6);
+    min-width: 0;
+}
+
+.product-card--pizza.product-card--doces {
+    --product-visual-start: #f4e6e4;
+    --product-visual-end: #e5c8c7;
+}
+
+html[data-theme="dark"] .product-card--pizza {
+    --product-visual-start: #392e29;
+    --product-visual-end: #2c2323;
+    --product-detail: rgba(229, 169, 181, 0.12);
+    --product-glow: rgba(255, 237, 216, 0.12);
+}
+
+html[data-theme="dark"] .product-card--pizza.product-card--doces {
+    --product-visual-start: #3d2a32;
+    --product-visual-end: #2d2228;
+}
+
+.product-card--pizza .product-card__visual {
+    height: auto;
+    min-height: 260px;
+    padding: 24px;
+}
+
+.product-card__pizza-placeholder {
+    display: flex;
+    width: min(100%, 220px);
+    aspect-ratio: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 24px;
+    border: 10px solid #d3a46d;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #fff5dc, #ecd3a7);
+    box-shadow: 0 16px 30px rgba(70, 36, 22, 0.16), inset 0 0 0 2px #f6dfb8;
+    color: #652c36;
+    text-align: center;
+}
+
+.product-card--doces .product-card__pizza-placeholder {
+    border-color: #b98268;
+    background: radial-gradient(circle at 35% 30%, #fff0e1, #e5c0ae);
+}
+
+.product-card__pizza-placeholder > span {
+    font-family: Georgia, serif;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+
+.product-card__pizza-placeholder strong {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.product-card__pizza-placeholder small {
+    font-size: 0.7rem;
+}
+
+.product-card--pizza .product-card__content {
+    min-width: 0;
+    padding: 24px;
+}
+
+.product-card--pizza .product-card__title {
+    font-size: clamp(1.35rem, 2vw, 1.65rem);
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+}
+
+.product-card--pizza .product-card__description {
+    display: block;
+    font-size: 0.92rem;
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+}
+
+.product-card--pizza .product-card__availability {
+    font-size: 0.76rem;
+}
+
+.product-card--pizza .product-card__button {
+    min-height: 50px;
+    padding: 12px 16px;
+    font-size: 0.84rem;
+    line-height: 1.4;
+    white-space: normal;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 1199px) {
+    .featured-products--pizzas .featured-products__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .featured-products--pizzas .featured-products__grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 20px;
+    }
+
+    .product-card--pizza .product-card__content {
+        padding: 22px;
+    }
+}
+
 /* =========================================
    SOBRE A R SUPLEMENTOS
 ========================================= */
